@@ -1,0 +1,3 @@
+nslookup MYIP
+
+name = cluster-computer.21-school.ru.

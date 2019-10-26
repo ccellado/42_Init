@@ -1,0 +1,1 @@
+All goes through NAT, which is easily identifiable with 192.168.*.* mask
