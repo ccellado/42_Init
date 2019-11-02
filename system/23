@@ -1,0 +1,11 @@
+Graphic session :
+create or use existing user
+then 
+su [user]
+
+Ssh session :
+
+if new use is to connect via ssh we have to make sure new user is explicitly allowed or not banned
+	from connecting,
+
+check in /etc/ssh/sshd_config

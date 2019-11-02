@@ -1,0 +1,3 @@
+to do that we need to replace our given domain name with the desired ip adress in /etc/hosts
+
+But! We do not have rights to modify hosts file.

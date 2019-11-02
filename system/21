@@ -1,0 +1,3 @@
+##/* drugoi diapazon gggg*/
+##/*getent passwd {1000..6000} | cut -d: -f1*/
+awk -F: 'NR == FNR {shells[$0]; next} $NF in shells' /etc/{shells,passwd} | cut -d: -f1

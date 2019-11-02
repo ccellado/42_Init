@@ -1,0 +1,2 @@
+#!/bin/bash
+arp -a | cut -d\( -f2 | cut -d\) -f1 | grep -E "192.168.(28|29|30|31)"
